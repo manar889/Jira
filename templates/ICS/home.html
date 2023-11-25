@@ -1,0 +1,328 @@
+{% extends 'ICS/index.html' %}
+
+{% load static %}
+
+
+{% block title %}I Care Solution{% endblock %}
+
+{% block content %}
+
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="hero">
+    <div class="container position-relative">
+      <div class="row gy-5" data-aos="fade-in">
+        <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
+          <h2>Welcome to <span>I Care Solution</span></h2>
+          <p>Connect with our Mental Health Experts, Anytime, Anywhere.</p>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="{% url 'signup' %}" class="btn-get-started">Get Started</a>
+ 
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2">
+          <img src="{% static 'assets/img/manar1.png' %}" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="100">
+        </div>
+      </div>
+    </div>
+
+    <div class="icon-boxes position-relative">
+      <div class="container position-relative">
+        <div class="row gy-4 mt-5">
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-tags-fill"></i></div>
+              <h4 class="title"><a href="" class="stretched-link">Affordable Prices</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-clock-history"></i></div>
+              <h4 class="title"><a href="" class="stretched-link">Available Anytime, Anywhere</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-diagram-3"></i></div>
+              <h4 class="title"><a href="" class="stretched-link">Diversified Service Offerings</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-alexa"></i></div>
+              <h4 class="title"><a href="" class="stretched-link">Complete Assistance</a></h4>
+            </div>
+          </div><!--End Icon Box -->
+
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+  <main id="main">
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>About Us</h2>
+          <p>Our platform delivers diverse consulting services, ensuring personalized support to foster academic and emotional well-being.</p>
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-6">
+            <h4>Those who look outside, dream.</h4>
+            <h4>Those who look inside, awaken.</h4>
+            <img src="{% static 'assets/img/manar3.png' %}" class="img-fluid rounded-4 mb-4" alt="">
+            </div>
+          <div class="col-lg-6">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+                Our Approach to Therapy consists of:
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i> Client-Centered Care</li>
+                <li><i class="bi bi-check-circle-fill"></i> Safe and Supportive environment.</li>
+                <li><i class="bi bi-check-circle-fill"></i> Acceptance, Compassion, and Collaboration</li>
+              </ul>
+              <p>
+                At I Care Solution, our mission is to provide compassionate and personalized mental health care to individuals seeking support on their journey to well-being. 
+                We are dedicated to fostering a safe and empathetic space where our clients can explore, heal, and grow, guided by our commitment to client-centered therapy and evidence-based practices.
+              </p>
+
+              <div class="position-relative mt-4">
+                
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+    
+    <!-- ======= Our Services Section ======= -->
+    <section id="services" class="services sections-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Services</h2>
+          <p>Embark on a Journey to Well-being: Discover our range of personalized therapy services designed to support you on your path to mental health. Explore Our Services Now!</p>
+        </div>
+
+        <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-chat-left-dots"></i>
+              </div>
+              <h3>Chat</h3>
+              <p>We extend our support through a confidential and empathetic chat platform, connecting you with our team of certified mental health professionals.</p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-camera-video"></i>
+              </div>
+              <h3>Video Call</h3>
+              <p>Experience online therapy sessions with our team of mental health experts at your convenience, accessible from any location.</p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-people"></i>
+              </div>
+              <h3>Real Life Sessions</h3>
+              <p>Choose a location and have our mental health experts come to your door for a real-life therapy session.</p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-bounding-box-circles"></i>
+              </div>
+              <h3>Group Therapy</h3>
+              <p>Embark on a transformative journey of collective healing through group therapy, guided by our team of mental health professionals.</p>
+              <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          
+
+        </div>
+
+      </div>
+    </section><!-- End Our Services Section -->
+
+    
+   
+
+    <!-- ======= Our Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Our Team</h2>
+          <p>We are a passionate team devoted to raising awareness about mental health challenges, dedicating our time and efforts to make a positive impact.</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="{% static 'assets/img/manar2.jpg' %}" class="img-fluid" alt="">
+              <h4>Manar Zmerli</h4>
+              <span>CEO</span>
+              <div class="social">
+                
+                <a href="https://www.facebook.com/rourou458768768/"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/manar_zmerli/?hl=fr"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/manar-zmerli-3961931a3/"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          
+
+        </div>
+
+      </div>
+    </section><!-- End Our Team Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing sections-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Pricing</h2>
+          <p>Affordable Care, Exceptional Support: Discover Our Pricing Plans.</p>
+        </div>
+
+        <div class="row g-4 py-lg-5" data-aos="zoom-out" data-aos-delay="100">
+
+          
+
+          <div class="col-lg-4">
+            <div class="pricing-item featured">
+              <h3>Regular Plan</h3>
+              <div class="icon">
+                <i class="bi bi-coin"></i>
+              </div>
+
+              <h4><sup>%</sup>20<span> of the Therapy Session</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> 1st session always free</li>
+                <li><i class="bi bi-check"></i> Connect with Experts</li>
+                <li><i class="bi bi-check"></i> Available Anytime, Anywhere</li>
+                <li><i class="bi bi-check"></i> Share your feedback and get Rewarded</li>
+                
+              </ul>
+              <div class="text-center"><a href="{% url 'signup' %}" class="buy-btn">Register Now</a></div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    
+    <!-- ======= Recent Blog Posts Section ======= -->
+    <section id="recent-posts" class="recent-posts sections-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Recent Blog Posts</h2>
+          <p>Explore Insights and Wellness Tips: Dive into our Mental Health Blog for articles that nurture your mind and empower your journey to well-being.</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="{% static 'assets/img/manar4.jpg' %}" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Anxiety</p>
+
+              <h2 class="title">
+                <a href="{% url 'blog-details' %}">What to know about anxiety?</a>
+              </h2>
+
+              
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="{% static 'assets/img/manar5.jpg' %}" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Depression</p>
+
+              <h2 class="title">
+                <a href="#blog-details.html">10 myths about depression</a>
+              </h2>
+
+              
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6">
+            <article>
+
+              <div class="post-img">
+                <img src="{% static 'assets/img/manar6.jpg' %}" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">
+                Schizophrenia</p>
+
+              <h2 class="title">
+                <a href="#blog-details.html">
+                    Understanding the symptoms of schizophrenia</a>
+              </h2>
+
+              
+
+            </article>
+          </div><!-- End post list item -->
+
+        </div><!-- End recent posts list -->
+
+      </div>
+    </section><!-- End Recent Blog Posts Section -->
+
+
+
+ </main>
+
+
+
+
+{% endblock %}
